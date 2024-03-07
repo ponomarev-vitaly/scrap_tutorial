@@ -83,7 +83,7 @@ soup = BeautifulSoup(src, "lxml")
 # post_title = soup.find(class_="post__date").find_previous_sibling().find_next().text
 # print(post_title)
 
-links = soup.find(class_="some__links").find_all("a")
+# links = soup.find(class_="some__links").find_all("a")
 # print(links)
 #
 # for link in links:
